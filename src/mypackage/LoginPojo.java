@@ -4,6 +4,13 @@ public class LoginPojo {
 	int id;
 	String name;
 	String address;
+	String phno;
+	public String getPhno() {
+		return phno;
+	}
+	public void setPhno(String phno) {
+		this.phno = phno;
+	}
 	public String getAddress() {
 		return address;
 	}
